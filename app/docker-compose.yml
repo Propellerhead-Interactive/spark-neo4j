@@ -6,7 +6,7 @@ mazerunner:
   links:
    - hdfs
 graphdb:
-  image: propellerhead-interactive/docker-neo4j:latest
+  image: propellerhead-interactive/docker-neo4j
   ports:
    - "7474:7474"
    - "1337:1337"
