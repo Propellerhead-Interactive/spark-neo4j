@@ -5,6 +5,8 @@ mazerunner:
   image: kbastani/neo4j-graph-analytics:latest
   links:
    - hdfs
+webserver:
+  image: propellerheadinteractive/tornado-analytics-serverj
 graphdb:
   image: propellerheadinteractive/docker-neo4j
   ports:
